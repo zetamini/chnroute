@@ -25,15 +25,15 @@ for net in $(cat ct.txt) ; do
 done
 
 for net in $(cat cnc.txt) ; do
-  echo "add dst-address=$net action=lookup table=CT"
+  echo "add dst-address=$net action=lookup table=CU"
 done
 
 for net in $(cat cmcc.txt) ; do
-  echo "add dst-address=$net action=lookup table=CMCC"
+  echo "add dst-address=$net action=lookup table=CU"
 done
 
 for net in $(cat crtc.txt) ; do
-  echo "add dst-address=$net action=lookup table=CMCC"
+  echo "add dst-address=$net action=lookup table=CU"
 done
 
 for net in $(cat cernet.txt) ; do
