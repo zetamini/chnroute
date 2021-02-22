@@ -58,15 +58,15 @@ for net in $(cat ct.txt) ; do
 done
 
 for net in $(cat cnc.txt) ; do
-  echo "add list=dpbr-CT address=$net"
+  echo "add list=dpbr-CU address=$net"
 done
 
 for net in $(cat cmcc.txt) ; do
-  echo "add list=dpbr-CMCC address=$net"
+  echo "add list=dpbr-CU address=$net"
 done
 
 for net in $(cat crtc.txt) ; do
-  echo "add list=dpbr-CMCC address=$net"
+  echo "add list=dpbr-CU address=$net"
 done
 
 for net in $(cat cernet.txt) ; do
