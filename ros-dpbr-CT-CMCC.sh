@@ -37,7 +37,7 @@ for net in $(cat crtc.txt) ; do
 done
 
 for net in $(cat cernet.txt) ; do
-  echo "add dst-address=$net action=lookup table=CT"
+  echo "add dst-address=$net action=lookup table=CU"
 done
 
 for net in $(cat gwbn.txt) ; do
@@ -70,7 +70,7 @@ for net in $(cat crtc.txt) ; do
 done
 
 for net in $(cat cernet.txt) ; do
-  echo "add list=dpbr-CT address=$net"
+  echo "add list=dpbr-CU address=$net"
 done
 
 for net in $(cat gwbn.txt) ; do
