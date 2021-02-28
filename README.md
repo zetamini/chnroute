@@ -1,4 +1,4 @@
-电信移动 策略路由规则
+电信移动策略路由规则
 
 ip段信息取自 https://ispip.clang.cn
 
@@ -8,9 +8,7 @@ ip段信息取自 https://ispip.clang.cn
 
 方法一：
 **ros-pbr-CT-CMCC.rsc** 是往route - rules 里生ip段列表。
-
 ros script 例子
-
 ```
 /file remove [find name="ros-pbr-CT-CMCC.rsc"]
 /tool fetch url="https://cdn.jsdelivr.net/gh/jacyl4/chnroute@master/ros-pbr-CT-CMCC.rsc"
@@ -41,6 +39,5 @@ ros script 例子
 ```
 
 这个可以用于Firewall - mangle页，通过dst-addrss= 引用
-
 
 方法二会更灵活点。
