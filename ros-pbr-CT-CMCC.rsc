@@ -5500,7 +5500,6 @@ add dst-address=150.248.0.0/16 action=lookup table=CT
 add dst-address=152.104.128.0/17 action=lookup table=CT
 add dst-address=152.136.0.0/16 action=lookup table=CT
 add dst-address=154.8.128.0/17 action=lookup table=CT
-add dst-address=156.59.0.0/16 action=lookup table=CT
 add dst-address=157.119.0.0/22 action=lookup table=CT
 add dst-address=157.119.8.0/21 action=lookup table=CT
 add dst-address=157.119.16.0/22 action=lookup table=CT
